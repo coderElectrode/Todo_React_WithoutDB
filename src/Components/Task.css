@@ -1,0 +1,136 @@
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    width: 450px;
+  }
+
+  .addTask{
+    margin-left: 20px;
+    background-color:antiquewhite;
+    border: 2px solid blue;
+    border-radius: 10px;
+  }
+
+
+
+  .tasklist
+  {
+    margin-top: 20px;
+    width: 400px;
+    height: 600px;
+    display: block;
+   align-items: flex-start;
+    justify-content: center;
+  }
+
+  .tasktext{
+
+    max-width: 400px;
+ 
+    max-height: 600px;
+  }
+
+  .taskNumber {
+    color: #efe5e5;
+    border: 1px solid #bf1313;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    text-align: center;
+    font-size: 8px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  .editbutton{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  width: auto;
+  display: inline-block;
+  }
+
+  .checkbutton{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 55px;
+  width: auto;
+  display: inline-block;
+  }
+
+
+  .deletebutton{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2px;
+  width: auto;
+  display: inline-block;
+  }
+
+button{
+  border: red;
+  background-color: aquamarine;
+  outline: none ;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.taskBg{
+ 
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 650px;
+  padding: 10px 300px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+
+  position: relative;
+
+  
+  
+}
+
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+.taskBg .done .tasktext {
+  text-decoration: line-through;
+
+}
+
+.Maindiv
+{
+  padding-left:10%;
+  width:800px;
+  height:700px;
+  margin-left: 200px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+   background: linear-gradient(120deg,#5f9fd0,#ec5d5d);
+
+}
+
+.taskBg .date input{
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  transform: translateY(-50%);
+  right: 90px;
+  width: auto;
+  display: inline-block;
+}
+
+
+
